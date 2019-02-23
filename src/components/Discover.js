@@ -58,17 +58,15 @@ class Discover extends Component {
             <p>
                 <button 
                     data-action="like" 
-                    className="center-block"
                     type="button" 
-                    className="btn btn-primary mr-2"
+                    className="btn btn-primary btn-block mr-2"
                     onClick={this.handleButtonClick}>
                     Like
                 </button>
                 <button 
                     data-action="dislike" 
-                    className="center-block"
                     type="button" 
-                    className="btn btn-secondary"
+                    className="btn btn-secondary btn-block"
                     onClick={this.handleButtonClick}>
                     Dislike
                 </button>
